@@ -40,6 +40,7 @@ li {
 .section__title {
     font-size: 48px;
     font-weight: 900;
+    color: #243E63;
 }
 
 .section__para {
@@ -291,6 +292,7 @@ li {
 
 .service__card--title {
     font-size: 24px;
+    color: #243E63;
 }
 
 .service__card--para {
