@@ -32,6 +32,21 @@ li {
     color: #6515ff;
 }
 
+.titles {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.section__title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.section__para {
+    font-size: 18px;
+    text-align: center;
+}
+
 /* NAVIGATION */
 
 .nav__container {
@@ -127,7 +142,7 @@ li {
 }
 
 .header__text {
-    color: #243E63;
+    color: #7C8BA1;
     font-size: 18px;
     width: 100%;
     max-width: 532px;
@@ -207,4 +222,81 @@ li {
 .header__image {
     width: 100%;
     max-width: 746px;
+}
+
+/* SERVICE */
+
+.service--container {
+    margin: 0 176px;   
+    line-height: 1.5;
+}
+
+.service__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service__title {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.service__para {
+    width: 100%;
+    max-width: 576px;
+    margin-top: 16px;
+    margin: 16px 0 40px 0;
+    color: #7C8BA1;
+}
+
+.service__cards {
+    display: flex;
+}
+
+.service__cards--wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service__card {
+    width: 100%;
+    max-width: calc(100% / 3 - 32px);
+    padding: 32px 8px;
+    margin: 0 16px;
+}
+
+.service__card--wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.service__card--icon {
+    padding: 20px;
+    border: 2px solid #7c8ba168;
+    border-radius: 50%;
+    color: #6515ff;
+    width: 64px;
+    height: 64px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service__card--description {
+    display: flex;
+    flex-direction: column;
+}
+
+.service__card--title {
+    font-size: 24px;
+}
+
+.service__card--para {
+    margin-top: 16px;
+    width: 100%;
+    max-width: 212px;
+    word-spacing: 1px;
+    color: #7C8BA1;
 }
