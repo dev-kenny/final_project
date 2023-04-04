@@ -355,6 +355,8 @@ li {
 
 .quality__img-wrapper {
     border: 1px solid #a0aec064;
+    border-radius: 4px;
+    overflow: hidden;
 }
 
 .quality__img {
@@ -387,7 +389,6 @@ li {
     max-width: 50%;
     display: flex;
     flex-direction: column;
-    
     padding: 32px 0px 32px 64px;
     
 }
